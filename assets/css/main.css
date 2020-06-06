@@ -1041,7 +1041,7 @@ input[type="submit"].style3:active, input[type="reset"].style3:active, input[typ
 	justify-content: center;
 	padding: 8em 4em 6em 4em;
 	min-height: 100vh;
-	background-image: url("../../images/banner.jpg");
+	/* background-image: url("../../images/banner.jpg"); */
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1049,8 +1049,9 @@ input[type="submit"].style3:active, input[type="reset"].style3:active, input[typ
 	position: relative;
 	text-align: center;
 	overflow: hidden;
+	position: absolute;
+	width: 100%;
 }
-
 #banner .inner {
 	text-align: center;
 	position: relative;
@@ -1144,7 +1145,7 @@ input[type="submit"].style3:active, input[type="reset"].style3:active, input[typ
 	min-height: 100%;
 	overflow: hidden;
 }
-
+/* 
 #banner:before {
 	-moz-transition: opacity 3s ease;
 	-webkit-transition: opacity 3s ease;
@@ -1164,7 +1165,7 @@ input[type="submit"].style3:active, input[type="reset"].style3:active, input[typ
 	top: 0;
 	width: 100%;
 	z-index: 1;
-}
+} */
 
 @media screen and (max-width: 1280px) {
 	#banner video {
@@ -1258,4 +1259,9 @@ body.is-loading #banner:before {
 	#footer {
 		padding: 3em 0 1em 0;
 	}
+}
+
+#particles-js{
+	background-image: url('image1.jpg');
+	height: 100vh;
 }

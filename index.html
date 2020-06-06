@@ -10,36 +10,36 @@
 	<title>Full Motion</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="./assets/css/main.css" />
+	<link rel="stylesheet" href="./assets/css/particle.css">
 </head>
 
 <body id="top">
+	<div class="above-the-fold">
+		<div id="particles-js">
+			<!-- <div class="btext"> -->
+				<section id="banner">
+					<div class="inner">
+						<header>
+							<h1 data-period="2000" class="txt-rotate" id="typed-name" data-rotate='["Hi there I am Abhishek"]'></h1><br>
+							<p id="typed-intro">Certified Data Scientist from Edwisor.com.<br><br>
+								Have hands on experience in analyzing & interpreting data.<br><br>
+								I'm passionate about using data to
+								<span class="txt-rotate" data-period="2000"
+									data-rotate='[ "understand cause and effect.", "extract decision making insight.", "help machines learn.", "make the world a better place."]'>
+								</span>
+			
+							</p>
+						</header>
+						<a href="#main" class="more">Learn More</a>
+					</div>
+				</section>
+			<!-- </div> -->
 
-	<!-- Banner -->
-	<!--
-				To use a video as your background, set data-video to the name of your video without
-				its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
-				formats to work correctly.
-			-->
-	<script src="particles.js"></script>
-	<script src="app.js"></script>
-	<div id="particles-js"></div>
-	<section id="banner" data-video="images/banner">
-		<div class="inner">
-			<header>
-				<h1 id="typed-name">Hi there I'm Abhishek</h1><br>
-				<p id="typed-intro">Certified Data Scientist from Edwisor.com.<br><br>
-					Have hands on experience in analyzing & interpreting data.<br><br>
-					I'm passionate about using data to
-					<span class="txt-rotate" data-period="2000"
-						data-rotate='[ "understand cause and effect.", "extract decision making insight.", "help machines learn.", "make the world a better place."]'>
-					</span>
-
-				</p>
-			</header>
-			<a href="#main" class="more">Learn More</a>
 		</div>
-	</section>
+	</div>
+
+
 
 	<script>
 		/** code by webdevtrick ( https://webdevtrick.com ) **/
@@ -78,10 +78,13 @@
 				this.loopNum++;
 				delta = 500;
 			}
+			if (this.toRotate[this.toRotate.length - 1] !== this.txt) {
+				setTimeout(function () {
+					that.tick();
+				}, delta);
+			}
 
-			setTimeout(function () {
-				that.tick();
-			}, delta);
+
 		};
 
 		window.onload = function () {
@@ -286,6 +289,8 @@
 	</footer>
 
 	<!-- Scripts -->
+	<script src="./assets/js/particles.js"></script>
+	<script src="./assets/js/app.js"></script>
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>
 	<script src="assets/js/jquery.poptrox.min.js"></script>
