@@ -157,7 +157,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #000000;
+	color: #ffffff;
 	font-weight: 400;
 	line-height: 1.5;
 	margin: 0 0 1em 0;
@@ -872,7 +872,7 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 	-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-	background-color: #70c7be;
+	background-color: #386b66;
 	border-radius: 4px;
 	border: 0;
 	color: #ffffff !important;
@@ -1220,6 +1220,7 @@ body.is-loading #banner:before {
 #title {
 	padding: 6em 0 0;
 	text-align: center;
+	color: #ffffff;
 }
 
 /* Footer */
