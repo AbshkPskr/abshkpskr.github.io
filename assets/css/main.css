@@ -18,6 +18,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	vertical-align: baseline;
 }
 
+p1, p2, p3, p4 {
+	font-size: 30px;
+	font-weight: bolder;
+}
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -1052,6 +1057,7 @@ input[type="submit"].style3:active, input[type="reset"].style3:active, input[typ
 	position: absolute;
 	width: 100%;
 }
+
 #banner .inner {
 	text-align: center;
 	position: relative;
@@ -1145,6 +1151,7 @@ input[type="submit"].style3:active, input[type="reset"].style3:active, input[typ
 	min-height: 100%;
 	overflow: hidden;
 }
+
 /* 
 #banner:before {
 	-moz-transition: opacity 3s ease;
@@ -1262,7 +1269,7 @@ body.is-loading #banner:before {
 	}
 }
 
-#particles-js{
+#particles-js {
 	background-image: url('image1.jpg');
 	height: 100vh;
 }
