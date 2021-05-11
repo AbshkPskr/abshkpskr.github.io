@@ -7,7 +7,7 @@ var i = 0,
 // Typerwrite text content. Use a pipe to indicate the start of the second line "|"
 var textArray = [
   "Hi there! I am Abhishek.",
-  " |Certified Data Analyst from Edwisor.com.",
+  " |Certified Data Scientist from Edwisor.com.",
   " ?Have hands on experience in analyzing & interpreting data.",
   " >I'm passionate about using data to",
   " <understand cause and effect.",
